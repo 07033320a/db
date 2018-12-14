@@ -153,7 +153,7 @@ CREATE TABLE `course_teacher` (
 
 LOCK TABLES `course_teacher` WRITE;
 /*!40000 ALTER TABLE `course_teacher` DISABLE KEYS */;
-INSERT INTO `course_teacher` (`id`, `content`, `create_time`, `update_time`, `capacity`, `brief`, `tuition_type`, `tuition`, `tuition_sub_type`, `course_date`, `create_user`, `update_user`, `teacher_type`, `final_tuition`, `grade`, `course_area`, `start_date`, `end_date`, `delete_status`, `teacher_name`, `status`, `need_training_aid`, `phone`, `price`, `recommend_brand`) VALUES (46,'555555555555','2018-12-04 06:58:10','2018-12-13 10:10:33',15,'23232323kkk','fee','12','2','wed,thu',10003,10003,'2','12','[7]','3楼会议室','2018-11-07 00:00:00','2018-11-24 00:00:00','1',10003,'success','1','12',1111,'fskksdkfkdfkf'),(58,'我的历史课','2018-12-11 02:21:17','2018-12-13 07:29:00',14,'历史是一门悠久的学科','free',NULL,NULL,'tue',10007,10003,'0','4111 RMB','[0,1,2,3,4,5,6,7,8,9]','2楼F','2018-12-10 00:00:00','2019-01-15 00:00:00','1',10007,'publish','1',NULL,NULL,NULL),(59,'我的历史课','2018-12-11 09:01:01','2018-12-13 07:29:20',1,'多舒服撒','fee','123','2','tue',10003,10003,'2','333RRB','[0,1,2,3,4,5,6,7,8,9]','9楼','2018-12-11 00:00:00','2019-01-15 00:00:00','1',10003,'publish','1','12312312312',312,'12');
+INSERT INTO `course_teacher` (`id`, `content`, `create_time`, `update_time`, `capacity`, `brief`, `tuition_type`, `tuition`, `tuition_sub_type`, `course_date`, `create_user`, `update_user`, `teacher_type`, `final_tuition`, `grade`, `course_area`, `start_date`, `end_date`, `delete_status`, `teacher_name`, `status`, `need_training_aid`, `phone`, `price`, `recommend_brand`) VALUES (46,'555555555555','2018-12-04 06:58:10','2018-12-14 09:28:33',15,'23232323kkk','fee','12','2','wed,thu',10003,10003,'2','12','[7]','1楼302','2018-11-07 00:00:00','2018-11-24 00:00:00','1',10003,'success','1','12',1111,'fskksdkfkdfkf'),(58,'我的历史课','2018-12-11 02:21:17','2018-12-14 09:28:27',14,'历史是一门悠久的学科','free',NULL,NULL,'tue',10007,10003,'0','4111 RMB','[0,1,2,3,4,5,6,7,8,9]','2楼大会议室','2018-12-10 00:00:00','2019-01-15 00:00:00','1',10007,'publish','1',NULL,NULL,NULL),(59,'我的历史课','2018-12-11 09:01:01','2018-12-14 09:28:40',1,'多舒服撒','fee','123','2','tue',10003,10003,'2','333RRB','[0,1,2,3,4,5,6,7,8,9]','3楼厕所','2018-12-11 00:00:00','2019-01-15 00:00:00','1',10003,'publish','1','12312312312',312,'12');
 /*!40000 ALTER TABLE `course_teacher` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -390,4 +390,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-12-14 10:03:39
+-- Dump completed on 2018-12-14 18:06:38
